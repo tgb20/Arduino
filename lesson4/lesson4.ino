@@ -48,6 +48,8 @@ void loop() {
   //We are going to use a map function
   //This takes one set of values and converts it to another
   //It works like this y = map(input,oldMin, oldMax, newMin, newMax);
+  //We are using 0 and 10 for the oldMin and Max for 0 inches to 10 inches
+  //You can change this to match the distances you want
   y = map(x,0,10,0,255);
   //The y value is now on a scale of 0 to 255 which can be used to control an LED
   //We want to write the value to the LED
