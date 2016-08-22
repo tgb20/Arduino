@@ -24,4 +24,9 @@ Learn to use the Sensor to control an LED.
 #Lesson 5
 Control an Array of LEDS
 
-![alt tag](https://github.com/tgb20/Arduino-Lessons/blob/master/lesson5/ledArray.jpg)
+![alt tag](https://github.com/tgb20/Arduino-Lessons/blob/master/lesson5/ledArray.png)
+
+#Lesson 6
+Control an Array of LEDS with a Sensor
+
+![alt tag](https://github.com/tgb20/Arduino-Lessons/blob/master/lesson6/breadboard.png)
