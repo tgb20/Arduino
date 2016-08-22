@@ -39,5 +39,8 @@ void loop() {
    *  Because we are in a loop function it will go back
    *  to the top of the loop after the delay.
    *  This will start the process over again.
+   *  
+   *  Experiment:
+   *  Try using different values for the delay time.
    */
 }
