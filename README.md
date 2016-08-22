@@ -30,4 +30,4 @@ Control an Array of LEDS
 #Lesson 6
 Control an Array of LEDS with a sensor
 
-![alt tag](https://github.com/tgb20/Arduino-Lessons/blob/master/lesson6/breadboard)
+![alt tag](https://github.com/tgb20/Arduino-Lessons/blob/master/lesson6/breadboard.png)
