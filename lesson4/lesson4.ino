@@ -16,7 +16,7 @@ long duration, distance;
 // NEW CODE HERE TO CONTROL LED
 
 // Add an LED
-int ledPin = 10;
+int ledPin = 6;
 
 // Initialize LED brightness
 int brightness = 0;
@@ -76,14 +76,20 @@ void loop() {
       new_value = map(input, oldMin, oldMax, newMin, newMax);
 
       Map distances from 0 to 200 cm to brightness from 255 to 0.
-      This makes the LED brightest when you are close and dims it
-      when the distance is greater.
+      This makes the LED dim when you are close and makes it
+      brighten when the distance is greater.
   */
-  brightness = map(distance, 0, 200, 255, 0);
+  brightness = map(distance, 0, 200, 0, 255);
 
   // Write the brightness value to the LED.
   analogWrite(ledPin, brightness);
 
   // Print the brightness to the Serial port.
-  Serial.println(brightness);
+  Serial.println(brightness); '
+
+  /*
+     Experiment:
+     Make the LED get brighter when you get closer to the
+     distance sensor.
+  */
 }
