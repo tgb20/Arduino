@@ -5,14 +5,14 @@
  * We need to declare our pins.
  */
 
-int pin = 9;
+int ledPin = 9;
 
 void setup() {
   /* 
    * Put your setup code here to run once.
    * We need to set our pin to an output.
    */
-  pinMode(pin,OUTPUT);
+  pinMode(ledPin,OUTPUT);
 }
 
 void loop() {
@@ -23,13 +23,13 @@ void loop() {
    *  
    *  Start by turning the pin on:
    */
-  digitalWrite(pin,HIGH);
+  digitalWrite(ledPin,HIGH);
   
   // Wait before doing the next item
   delay(1000); // 1000 milliseconds is equal to 1 second
   
   // Turn the LED off
-  digitalWrite(pin,LOW);
+  digitalWrite(ledPin,LOW);
   
   // Add another wait
   delay(1000);
