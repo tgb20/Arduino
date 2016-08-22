@@ -21,16 +21,16 @@ void setup() {
 
 //We need to create a custom value to hold the distance
 unsigned long ping(){
-  pinMode(sensor, OUTPUT); // Switch signalpin to output
-  digitalWrite(sensor, LOW); // Send low pulse 
+  pinMode(ultraSoundSignal, OUTPUT); // Switch signalpin to output
+  digitalWrite(ultraSoundSignal, LOW); // Send low pulse 
   delayMicroseconds(2); // Wait for 2 microseconds
-  digitalWrite(sensor, HIGH); // Send high pulse
+  digitalWrite(ultraSoundSignal, HIGH); // Send high pulse
   delayMicroseconds(5); // Wait for 5 microseconds
-  digitalWrite(sensor, LOW); // Holdoff
-  pinMode(sensor, INPUT); // Switch signalpin to input
-  digitalWrite(sensor, HIGH); // Turn on pullup resistor
-  echo = pulseIn(sensor, HIGH); //Listen for echo
-  sensor = (echo / 58.138) * .39; //convert to CM then to inches
+  digitalWrite(ultraSoundSignal, LOW); // Holdoff
+  pinMode(ultraSoundSignal, INPUT); // Switch signalpin to input
+  digitalWrite(ultraSoundSignal, HIGH); // Turn on pullup resistor
+  echo = pulseIn(ultraSoundSignal, HIGH); //Listen for echo
+  ultraSoundSignal = (echo / 58.138) * .39; //convert to CM then to inches
   return sensor;
 }
 
