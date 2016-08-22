@@ -25,27 +25,9 @@ void setup() {
   // Use Serial to communicate from the Arduino.
   Serial.begin(9600);
 
-<<<<<<< HEAD
-}
-
-//We need to create a custom value to hold the distance
-unsigned long ping(){
-  pinMode(ultraSoundSignal, OUTPUT); // Switch signalpin to output
-  digitalWrite(ultraSoundSignal, LOW); // Send low pulse 
-  delayMicroseconds(2); // Wait for 2 microseconds
-  digitalWrite(ultraSoundSignal, HIGH); // Send high pulse
-  delayMicroseconds(5); // Wait for 5 microseconds
-  digitalWrite(ultraSoundSignal, LOW); // Holdoff
-  pinMode(ultraSoundSignal, INPUT); // Switch signalpin to input
-  digitalWrite(ultraSoundSignal, HIGH); // Turn on pullup resistor
-  echo = pulseIn(ultraSoundSignal, HIGH); //Listen for echo
-  ultraSoundSignal = (echo / 58.138) * .39; //convert to CM then to inches
-  return sensor;
-=======
   // Specify trigger and echo pins.
   pinMode(triggerPin, OUTPUT);
   pinMode(echoPin, INPUT);
->>>>>>> pr/1
 }
 
 void loop() {
