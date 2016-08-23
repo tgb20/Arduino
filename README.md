@@ -19,7 +19,7 @@ Learn to get information from an Sensor and display the information over serial
 #Lesson 4
 Learn to use the Sensor to control an LED.
 
-![alt tag](https://github.com/tgb20/Arduino-Lessons/blob/master/lesson4/distance_sensor_LED_breadboard.jpg)
+![alt tag](https://github.com/tgb20/Arduino-Lessons/blob/master/lesson4/breadboard.jpg)
 
 #Lesson 5
 Control an Array of LEDS
