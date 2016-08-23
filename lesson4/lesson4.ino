@@ -76,8 +76,8 @@ void loop() {
       new_value = map(input, oldMin, oldMax, newMin, newMax);
 
       Map distances from 0 to 200 cm to brightness from 255 to 0.
-      This makes the LED brightest when you are close and dims it
-      when the distance is greater.
+      This makes the LED dim when you are close and makes it
+      brighten when the distance is greater.
   */
   brightness = map(distance, 0, 200, 0, 255);
 
@@ -85,5 +85,11 @@ void loop() {
   analogWrite(ledPin, brightness);
 
   // Print the brightness to the Serial port.
-  Serial.println(brightness);
+  Serial.println(brightness); '
+
+  /*
+     Experiment:
+     Make the LED get brighter when you get closer to the
+     distance sensor.
+  */
 }
