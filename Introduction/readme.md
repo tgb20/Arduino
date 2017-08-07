@@ -46,3 +46,18 @@ And turn them into an **output**:
 - publishing something online
 
 ![LED](https://ktechnics.com/wp-content/uploads/2016/02/LED_blink.gif "LED")
+
+# How does an Arduino Work?
+An Arduino has many components:
+- A USB Input, this is used to talk to the Arduino from a computer to load code or send Serial Data
+- Input/Output Pins, these pins are used to send and recieve signals from sensors and other devices, such as the examples above.
+- The Arduino also has 5v and 3.5v power outputs that are passed through from the USB cable or a dedicated power supply. You also need a ground to complete every circuit
+# How does a Circuit Work?
+# How do LEDs Work?
+# How do Resistors Work?
+# What is a breadboard?
+# How do you program and Arduino?
+
+# Summary
+This is the end of the introduction for Arduinos! You should now have a basic understanding of how an Arduino works and have a working sample project. In the next lesson we will go over connecting a distance sensor to the Arduino.
+
