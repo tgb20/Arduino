@@ -104,8 +104,10 @@ Your program would then look like this:
 void setup() {
     helloWorld();
 }
+
 void loop(){
 }
+
 void helloWorld() {
     print("Hello World!");
 }
